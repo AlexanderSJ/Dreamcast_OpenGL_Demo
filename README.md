@@ -6,7 +6,7 @@ An OpenGL Demo running on Dreamcast hardware
 - [kazade's GLdc libaries](http://dcemulation.org/phpBB/viewtopic.php?f=29&t=104595)
 
 # Building
-1. After loading up the KallistiOS environment, run make.
+1. After loading up the KallistiOS environment, navigate to the project's directory and run the command ```make```.
 2. Run the command ```sh-elf-objcopy -R .stack -O binary main.elf output.bin``` to create the binary.
 3. Run the command ```/opt/toolchains/dc/kos/utils/scramble/scramble output.bin 1st_read.bin```
 4. Convert the binaries to CDI using BootDreams, or cdi4dc
